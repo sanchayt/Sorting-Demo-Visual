@@ -1,0 +1,94 @@
+
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
+# Include dlls if they’re in the NuGet packages directory
+api/packages/*/lib/*.dll
+api/packages/*/lib/*/*.dll
+# Include dlls if they're in the CommonReferences directory
+!*CommonReferences/*.dll
+
+*.Publish.xml
+
+/_ReSharper.*
+*.ReSharper.*
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+*.log
+*.sqlite
+
+
+
+*.suo
+*.user
+*.[Cc]ache
+*[Rr]esharper*
+api/packages
+api/NuGet.exe
+*.exe
+*.dll
+*.nupkg
+*.ncrunchsolution
+*.dot[Cc]over
+
+.vs/
+.vscode/
+api/SortingDemoVisual/*.user
+api/SortingDemoVisual/obj
+api/SortingDemoVisual/bin
+api/SortingDemoVisual/Migrations
+api/SortingDemoVisual/Properties
+
+web/dist
+web/tmp
+web/out-tsc
+
+# dependencies
+web/node_modules
+
+# profiling files
+web/chrome-profiler-events.json
+web/speed-measure-plugin.json
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+web/.sass-cache
+web/connect.lock
+web/coverage
+web/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+web/typings
+
+# System Files
+.DS_Store
+Thumbs.db

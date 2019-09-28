@@ -1,0 +1,42 @@
+<!-- Input Fields -->
+<section id="input-fields">
+  <div class="form-fields">
+    <form>
+      <!-- Digits/Words -->
+      <div class="input-field digits">
+        <label for="user-input">Input</label><br>
+        <input [(ngModel)]="userInput" type="text" name="input" id="user-input" value="">
+      </div>
+
+
+      <div class="data-modification">
+        <!-- Sort Type -->
+        <div class="input-field sortType">
+          <label for="sortType">Sort Type</label><br>
+          <select [(ngModel)]="sortType" id="sortType" name="sortType">
+            <option value="">--Please choose an option--</option>
+            <option value="0">Bubble</option>
+            <option value="1">Insertion</option>
+            <option value="2">Heap</option>
+        </select>
+        </div>
+
+        <!-- Value Type -->
+        <div class="input-field valueType">
+          <label for="valueType">Value Type</label><br>
+          <select [(ngModel)]="valueType" id="valueType" name="valueType">
+            <option value="">--Please choose an option--</option>
+            <option value="0">int</option>
+            <option value="1">string</option>
+
+        </select>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="input-field">
+        <button id="submitButton" value="Sort" (click)="sort()" >Sort</button>
+      </div>
+    </form>
+  </div>
+</section>

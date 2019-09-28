@@ -1,0 +1,33 @@
+
+#output {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 80%;
+  padding-left: 5%;
+  background-color: rgb(192, 191, 191);
+  height: 100%;
+}
+
+.loading {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.loadingBar {
+  background: rgb(235, 129, 129);
+  border-radius: 25px;
+  margin-right: 3%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  height: 5px;
+}
+
+.bars {
+  background: rgb(33, 140, 173);
+  padding-left: 10px;
+  margin-right: 3%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: aliceblue;
+}
+

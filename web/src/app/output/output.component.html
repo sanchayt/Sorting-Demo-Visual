@@ -1,0 +1,9 @@
+<!-- Loading Bar -->
+<div class="loading">
+  <p class="loadingBar" [ngStyle]="{'width': loadingBarLength}" ></p>
+</div>
+
+<!-- Output -->
+<section id="output">
+    <p class="bars" *ngFor="let steps of elementsLength;" [ngStyle]="{'width': steps.length}" >{{steps.name}}</p>
+</section>

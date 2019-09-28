@@ -1,0 +1,51 @@
+
+#input-fields {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 5rem;
+  background-color: rgb(240, 240, 240);
+}
+
+.form-fields {
+  padding: 1rem;
+}
+
+.form-fields form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: 0.7rem;
+}
+
+.input-field label {
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.input-field input[type=text], select {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+
+#submitButton {
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: rgba(39, 39, 39, 0.924);
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.data-modification {
+  /* border: 1px solid crimson; */
+  display: flex;
+}
+
+.data-modification .input-field {
+  /* display: none; */
+  flex: 1;
+}
